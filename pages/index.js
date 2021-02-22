@@ -15,7 +15,7 @@ export default function Home() {
         </ul> 
 
         <br/>
-        <h2><Link href="/post"><a>投稿一覧へ</a></Link></h2>
+        <h2><Link href="/postindex"><a>投稿一覧へ</a></Link></h2>
     </div>
   )
 }
