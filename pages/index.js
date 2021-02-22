@@ -10,6 +10,7 @@ export default function Home() {
           <li><Link href="/見積書3"><a>見積書3</a></Link></li>
           <li><Link href="/見積書4"><a>見積書4</a></Link></li>
           <li><Link href="/見積書5"><a>見積書5</a></Link></li>
+          <li><Link href="/見積書6"><a>見積書6</a></Link></li>
         </ul> 
     </div>
   )
