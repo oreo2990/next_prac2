@@ -1,6 +1,13 @@
 export default function index({posts}){
     return(
-    <div><h1>POST一覧</h1></div>
+    <div>
+        <h1>POST一覧</h1>
+        <ul>
+        {posts.map((post) => {
+          return <li key={post.id}>{post.title}</li>;
+        })}
+      </ul>
+    </div>
     );
 }
 
