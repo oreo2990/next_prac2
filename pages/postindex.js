@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function postindex({ posts }) {
   return (
     <div>
-      <h1>POST一覧です/h1>
+      <h1>POST一覧です</h1>
       <ul>
         {posts.map((post) => {
           return (
